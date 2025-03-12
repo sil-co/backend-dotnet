@@ -1,0 +1,71 @@
+# ASP.NET Core
+bin/
+obj/
+!bin/.gitkeep
+!obj/.gitkeep
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.sln.docstates
+*.sln.cache
+
+# Logs
+logs/
+*.log
+!logs/.gitkeep
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+.nuget/NuGet.Config
+
+# Entity Framework Migrations
+Migrations/
+
+# Environment files
+.env
+.env.local
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Node.js (if using frontend with React/Angular)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+**/docker-compose*.yml
+
+# Mac / Linux system files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Generated files
+*.bak
+*.cache
+*.pid
+*.tar.gz
